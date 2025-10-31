@@ -17,3 +17,4 @@ boxplot(X1 ~ X3, data=student_data, main="Age by Accommodation Type", xlab="Acco
 
 
 
+
