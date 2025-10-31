@@ -1,5 +1,5 @@
 #Q1
-setwd("C:\\Users\\DELL\\Desktop\\IT24102768")
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab01")
 data <- read.table("Exercise - LaptopsWeights.txt", header = TRUE)
 attach(data)
 
@@ -46,4 +46,5 @@ cat("Population Mean (", pop_mean, ") is close to the Mean of Sample Means (", m
 cat("\nRelationship between Population Standard Deviation and Standard Error:\n")
 theoretical_se <- pop_sd / sqrt(6)
 cat("Theoretical Standard Error (Population SD / sqrt(n)):", theoretical_se, "\n")
+
 cat("The Standard Deviation of Sample Means (", sd_of_sample_means, ") is close to the Theoretical Standard Error.\n")
