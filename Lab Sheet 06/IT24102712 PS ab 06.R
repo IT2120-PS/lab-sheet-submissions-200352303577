@@ -1,4 +1,4 @@
-setwd("C:\\Users\\User\\OneDrive\\Desktop\\IT24100482")
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab06")
 
 # Exercise 1
 n <- 50
@@ -10,3 +10,4 @@ print(prob_at_least_47)
 lambda <- 12
 prob_exactly_15 <- dpois(15, lambda)
 print(prob_exactly_15)
+
