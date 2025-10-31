@@ -1,4 +1,4 @@
-setwd("C:\\Users\\User\\OneDrive\\Desktop\\IT24100482ps")
+setwd(""C:\\Users\\IT24102712\\Desktop\\Lab0"5)
 getwd()
 
 Delivery_Times <- read.table("Exercise - Lab 05.txt", header = TRUE)
@@ -33,3 +33,4 @@ plot(breaks, new, type = "l",
      ylim = c(0, max(cum.freq)))
 
 cbind(Upper_Boundary = breaks, CumFreq = new)
+
