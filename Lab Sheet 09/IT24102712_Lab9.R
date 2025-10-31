@@ -1,4 +1,4 @@
-setwd("C:\\Users\\poorni dananjana\\Desktop\\Lab9")
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab9")
 getwd()
 
 # Q1
@@ -27,6 +27,7 @@ set.seed(123)
 baking <- rnorm(25, mean = 45, sd = 2)
 
 t.test(baking, mu = 46, alternative = "less")
+
 
 
 
