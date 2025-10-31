@@ -1,5 +1,5 @@
 getwd()
-setwd('C:/Users/user/IT24102712/Desktop/IT24102712 Lab3')
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab9")
 getwd()
 data<-read.csv("DATA 3.csv", header = TRUE)
 fix(data)
@@ -14,4 +14,5 @@ hist(student_data$X1, main="Histogram of Age", xlab="Age", col="lightblue")
 table(student_data$X2)
 barplot(table(student_data$X2), main="Bar Chart of Gender", xlab="Gender (1=Male, 2=Female)", ylab="Frequency", col="green")
 boxplot(X1 ~ X3, data=student_data, main="Age by Accommodation Type", xlab="Accommodation (1=Type1, 2=Type2, 3=Type3)", ylab="Age", col="orange")
+
 
