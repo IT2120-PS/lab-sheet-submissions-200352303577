@@ -1,4 +1,4 @@
-setwd("C:\\Users\\IT24100644\\Desktop\\IT24100644")
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab04")
 #1
 branch_data <- read.csv("Exercise.txt", header = TRUE)
 #2
@@ -26,5 +26,6 @@ find_outliers <- function(x) {
 
 # Check outliers in Years variable
 find_outliers(branch_data$Years)
+
 
 
