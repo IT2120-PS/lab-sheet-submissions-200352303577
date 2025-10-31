@@ -1,6 +1,6 @@
 b<-20
 getwd()
-setwd("C:/Users/it24101353/Desktop/Lab_1")
+setwd("C:\\Users\\IT24102712\\Desktop\\Lab01")
 getwd()
 10**2
 10^2
@@ -61,4 +61,5 @@ dataframe_1
 matrix_1 <- matrix(c(12,5,11,9), nrow = 2, ncol =2)
 matrix_1
 matrix_1 <- matrix(c(12,5,11,9), nrow = 2, ncol =2, byrow =TRUE)
+
 matrix_1
